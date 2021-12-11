@@ -1,6 +1,6 @@
 body{
     font-family: 'Arimo', sans-serif;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
   }
 
@@ -10,4 +10,21 @@ body{
 
   .lol-azul{
     background: #c0e6ff;
+  }
+
+  .title-service{
+    color: #c0e6ff;
+    margin: 0 0 0 0;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .service-icon{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .alinhar-centro{
+    text-align: center;
   }
