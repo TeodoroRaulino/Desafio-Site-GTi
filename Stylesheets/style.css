@@ -13,7 +13,7 @@ body{
   }
 
   .title-service{
-    color: #c0e6ff;
+    color: #023353;
     margin: 0 0 0 0;
     font-size: 40px;
     text-align: center;
@@ -24,6 +24,16 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .patners img{
+    height: 45px;
+    width: auto;
+    margin: 15px 10px;
+}
+
+.bg-dark{
+  background-color: transparent !important;
+}
 
   .alinhar-centro{
     text-align: center;
