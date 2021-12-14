@@ -12,6 +12,10 @@ body{
     background: #c0e6ff;
   }
 
+  .btn{
+      box-shadow: 0 2px 0 #000000;
+  }
+
   .title-service{
     color: #023353;
     margin: 0 0 0 0;
@@ -25,18 +29,27 @@ body{
     margin-right: auto;
   }
 
-  .patners img{
-    height: 45px;
-    width: auto;
-    margin: 15px 10px;
-}
+  .text-icon{
+      color: #615f5f;
+  }
 
-.bg-dark{
-  background-color: transparent !important;
+  .time{
+    color: #032135;
+    margin: 0 0 0 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  .patners img{ 
+    height: 45px; 
+    width: auto; 
+    margin: 15px 10px; 
+}
+.rodape {
+  background:#0267b9
 }
 
   .alinhar-centro{
-    text-align: center;
+    text-align: center !important;
   }
 
 
@@ -52,7 +65,6 @@ body{
 /* Sessão TimeLine */
 body{
     background-color: #f7f7f7;
-    margin-top:20px;
 }
 
 .main-timeline {
@@ -304,3 +316,5 @@ body{
     }
 }
 /* Fim sessão timeline */
+
+.font-size-17 { font-size: calc(17px + 1.7vw) }
