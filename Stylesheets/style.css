@@ -8,12 +8,20 @@ body{
     scroll-behavior: smooth;
 }
 
+.bg-dark{
+    background: #02001f !important;
+}
+
+.link-right{
+    justify-content: flex-end;
+}
+
   .lol{
     background: #f5f5f5;
   }
 
   .lol-azul{
-    background: #c0e6ff;
+    background: #00A3FF;
   }
 
   .marg{
@@ -80,11 +88,11 @@ body{
 
 
 .Cards{
-  background-color: #c0e6ff;
+    background-color: #00A3FF;
 }
 
 .card{
-  background: #c0e6ff;
+    background: #00A3FF;
 }
 
 
