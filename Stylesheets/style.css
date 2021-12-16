@@ -4,6 +4,10 @@ body{
     font-size: 20px;
   }
 
+  html{
+    scroll-behavior: smooth;
+}
+
   .lol{
     background: #f5f5f5;
   }
@@ -17,7 +21,7 @@ body{
   }
 
   .ImagemS{
-      background-image: url(../images/engineer-g74f45159d_1280.jpg);
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/engineer-g74f45159d_1280.jpg);
       background-repeat: no-repeat;
       background-size: cover !important;
       background-position: center center;
@@ -29,9 +33,9 @@ body{
   }
 
   .text-slider{
-      color: #000000;
+      color: #ffffff;
       text-align: center center;
-      text-shadow: 2px 2px #615f5f;
+      text-shadow: 2px 2px rgb(0, 0, 0);
   }
 
   .btn{
