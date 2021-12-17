@@ -105,6 +105,10 @@ body{
     position: relative
 }
 
+.card-title ,.card-text, .title-service{
+    color: #f7f7f7;
+}
+
 .main-timeline:before {
     content: "";
     display: block;
@@ -215,7 +219,6 @@ body{
 }
 
 .main-timeline .date-outer:before {
-    background: #fff;
     border: 2px solid #232323;
     left: -6px
 }
