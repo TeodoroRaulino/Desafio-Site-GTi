@@ -52,7 +52,7 @@ body{
   }
 
   .title-service{
-    color: #023353;
+    color: #000000;
     margin: 0 0 0 0;
     font-size: 40px;
     text-align: center;
@@ -65,7 +65,7 @@ body{
   }
 
   .text-icon{
-      color: #615f5f;
+      color: #555555;
   }
 
   .time{
@@ -106,7 +106,7 @@ body{
     position: relative
 }
 
-.card-title ,.card-text, .title-service{
+.card-title ,.card-text{
     color: #f7f7f7;
 }
 
