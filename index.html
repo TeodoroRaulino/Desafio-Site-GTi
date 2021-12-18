@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <link rel="stylesheet" type="text/css" href="./Stylesheets/style.css" />
 
   <title>Desafio 1</title>
 </head>
@@ -19,34 +19,34 @@
 
     <!--Teodoro-->
     <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">
-        <img src="images/blueprint.png" width=130 height=40>
+        <img src="./images/blueprint.png" width=130 height=40>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse link-right" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <ul class="nav justify-content-end">
-            <li class="nav-item mr-2">
-              <a class="nav-link " href="#">Services</a>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#Home">Home</a>
             </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="#">Portfolio</a>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#Service">Services</a>
             </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="#">About</a>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
             </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="#">Team</a>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#About">About</a>
             </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#Team">Team</a>
             </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="#">Orçamento</a>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
 
@@ -57,20 +57,14 @@
 
   <!--Teodoro-->
   <!--Sessão 1-->
-  <section>
-    <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+  <section id="Home">
+    <div class="container barg ImagemS">
+      <div class="row">
+        <div class="col-lg-8 m-auto py-5 align-self-center alinhar-centro">
+          <h2 class="text-slider">
+            Conheçam mais sobre nosso trabalho.</h2>
+          <h1 class="text-slider">Realize a obra do seu sonho!!</h1>
           <button type="button" class="btn btn-primary">Veja mais</button>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/engineer-g74f45159d_1280.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -78,67 +72,82 @@
 
   <!--Teodoro-->
   <!--Sessão 2-->
-  <section class="lol">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="title-service">Serviços</h1>
-        <p class="alinhar-centro">Nulla vitae elit libero, a pharetra augue mollis interdum</p>
+  <section class="lol" id="Service">
+    <div class="container-fluid">
+      <div class="title-service">
+        <h1 class="title-service pt-3">Serviços</h1>
       </div>
-      <div class="col-md-2 service-icon">
-        <img src="images/ap.svg" alt="" class="img-fluid">
-        <b>
-          <h3>Construções</h3>
-        </b>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum</p>
+      <div class="col-sm pb-2">
+        <h5 class="alinhar-centro text-icon">Nulla vitae elit libero, 
+        a pharetra augue mollis interdum
+        </h5>
       </div>
-      <div class="col-md-2 service-icon">
-        <img src="images/Ajustes.svg" alt="" class="img-fluid">
-        <b>
-          <h3>Reformas</h3>
-        </b>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum</p>
-      </div>
-      <div class="col-md-2 service-icon">
-        <img src="images/projeto.svg" alt="" class="img-fluid">
-        <b>
-          <h3>Projetos</h3>
-        </b>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum</p>
+      <div class="row alinhar-centro px-5 pb-2">
+        <div class="col-sm-4 service-icon py-2">
+          <img src="./images/ap 1.svg" class="img-fluid icon-aj">
+          <p class="alinhar-centro"></p>
+          <h2 class="title-service font-size-17">Construções</h2>
+          <p class="alinhar-centro mt-2"></p>
+          <h4 class="text-icon">Nulla vitae elit libero, a pharetra augue mollis interdum</h4>
+        </div>
+        <div class="col-sm-4 service-icon py-2">
+          <img src="./images/Ajustes 1.svg" class="img-fluid icon-aj">
+          <p class="alinhar-centro"></p>
+          <h2 class="title-service font-size-17">Reformas</h2>
+          <p class="alinhar-centro mt-2"></p>
+          <h4 class="text-icon">Nulla vitae elit libero, a pharetra augue mollis interdum</h4>
+        </div>
+        <div class="col-sm-4 service-icon py-2">
+          <img src="./images/Text projetos 1.svg" class="img-fluid icon-aj">
+          <p class="alinhar-centro"></p>
+          <h2 class="title-service font-size-17">Projetos</h2>
+          <p class="alinhar-centro"></p>
+          <h4 class="text-icon">Nulla vitae elit libero, a pharetra augue mollis interdum</h4>
+        </div>
       </div>
     </div>
   </section>
 
   <!--Jonatas-->
   <!-- section 3 Cards-->
-  <section class="Cards row justify-content-around">
-    <h2 class="container-fluid col-12 title-service"> <b>Portfolio</b> </h2>
+  <section class="Cards pt-3 lol-azul" id="Portfolio">
+    <div class="container">
+      <h2 class="p-4 col-12 title-service"> <b>Portfolio</b> </h2>
     <div class="card-deck">
-      <div class="card col-4">
-        <img class="card-img-top"
-          src="/images/images_cards/image-of-engineering-objects-on-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg"
-          alt="Imagem Engenharia">
+      <div class="card border-0 col-sm text-center">
+        <div class="shadow-lg">
+          <img class="card-img-top rounded"
+            src="./images/images_cards/image-of-engineering-objects-on-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg"
+            alt="Imagem Engenharia">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Contrução de casas </h5>
+          <h5 class="card-title">
+            <b>Contrução de casas</b>
+          </h5>
           <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
             conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
         </div>
       </div>
-      <div class="card col-4">
-        <img class="card-img-top"
-          src="/images/images_cards/laying-ceramic-tiles-troweling-mortar-onto-a-concrete-floor-in-preparation-for-laying-white-floor-tile.jpg"
-          alt="Imagem de capa do card">
+      <div class="card border-0 col-sm text-center">
+        <div class="shadow-lg">
+          <img class="card-img-top rounded"
+            src="./images/images_cards/laying-ceramic-tiles-troweling-mortar-onto-a-concrete-floor-in-preparation-for-laying-white-floor-tile.jpg"
+            alt="Imagem de capa do card">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Reformas de Casas</h5>
+          <h5 class="card-title"><b>Reformas de Casas</b></h5>
           <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
             conteúdo adicional.</p>
         </div>
       </div>
-      <div class="card col-4">
-        <img class="card-img-top"
-          src="/images/images_cards/woman-busy-with-refurbishment-and-renovation-wears-safety-clothes-holds-painting-brush.jpg"
-          alt="Imagem de capa do card">
+      <div class="card border-0 col-sm text-center">
+        <div class="shadow-lg">
+          <img class="card-img-top rounded"
+            src="./images/images_cards/woman-busy-with-refurbishment-and-renovation-wears-safety-clothes-holds-painting-brush.jpg"
+            alt="Imagem de capa do card">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Pintura</h5>
+          <h5 class="card-title"><b>Pintura</b></h5>
           <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
             conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em
             ação.</p>
@@ -146,51 +155,57 @@
       </div>
     </div>
     <div class="card-deck">
-      <div class="card col-4">
-        <img class="card-img-top" src="/images/images_cards/solar-system-g66fca2f67_1920.jpg"
-          alt="Imagem de capa do card">
+      <div class="card border-0 col-sm text-center">
+        <div class="shadow-lg">
+          <img class="card-img-top rounded" src="./images/images_cards/solar-energy-862602_1920.jpg"
+            alt="Imagem de capa do card">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Energia Elétrica</h5>
+          <h5 class="card-title"><b>Energia Elétrica</b></h5>
           <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
             conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
         </div>
       </div>
-      <div class="card col-4">
-        <img class="card-img-top" src="/images/images_cards/electric-gf602bb5bf_1920.jpg" alt="Imagem de capa do card">
+      <div class="card border-0 col-sm text-center">
+        <div class="shadow-lg">
+          <img class="card-img-top rounded" src="./images/images_cards/electric-gf602bb5bf_1920.jpg"
+            alt="Imagem de capa do card">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Parte Elétrica</h5>
+          <h5 class="card-title"><b>Parte Elétrica</b></h5>
           <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
             conteúdo adicional.</p>
         </div>
       </div>
-      <div class="card col-4">
-        <img class="card-img-top" src="/images/images_cards/engineer-g7defd4b5d_1920.jpg" alt="Imagem de capa do card">
+      <div class="card border-0 col-sm text-center">
+        <div class="shadow-lg">
+          <img class="card-img-top rounded" src="./images/images_cards/engineer-g7defd4b5d_1920.jpg"
+            alt="Imagem de capa do card">
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Planta Civil</h5>
+          <h5 class="card-title"><b>Planta Civil</b></h5>
           <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
             conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em
             ação.</p>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
   <!--Jonatas-->
   <!--Sessão 4 TimeLine-->
-  <section class="TimeLine">
+  <section class="TimeLine" id="About">
     <div class="container">
       <div class="main-timeline">
 
         <!-- start experience section-->
-        <div class="timeline">
+        <div class="timeline mt-4">
           <div class="icon">
           </div>
           <div class="date-content">
             <div class="date-outer">
-              <span class="date">
-                <span class="month">2 Years</span>
-                <span class="year">2013</span>
-              </span>
+              <img src="./images/imagens_timeline/Ellipse 1.svg" alt="" class="rounded-circle">
             </div>
           </div>
           <div class="timeline-content">
@@ -209,10 +224,7 @@
           <div class="icon"></div>
           <div class="date-content">
             <div class="date-outer">
-              <span class="date">
-                <span class="month">1 Years</span>
-                <span class="year">2015</span>
-              </span>
+              <img src="./images/imagens_timeline/Ellipse 2.svg" alt="" class="rounded-circle">
             </div>
           </div>
           <div class="timeline-content">
@@ -231,10 +243,7 @@
           <div class="icon"></div>
           <div class="date-content">
             <div class="date-outer">
-              <span class="date">
-                <span class="month">2 Years</span>
-                <span class="year">2016</span>
-              </span>
+              <img src="./images/imagens_timeline/Ellipse 3.svg" alt="" class="rounded-circle">
             </div>
           </div>
           <div class="timeline-content">
@@ -253,10 +262,7 @@
           <div class="icon"></div>
           <div class="date-content">
             <div class="date-outer">
-              <span class="date">
-                <span class="month">2 Years</span>
-                <span class="year">2018</span>
-              </span>
+              <img src="./images/imagens_timeline/Ellipse 4.svg" alt="" class="rounded-circle">
             </div>
           </div>
           <div class="timeline-content">
@@ -363,9 +369,9 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col text-center">
-          <img src="./images/marvel.png" class="img-fluid">
-          <img src="./images/nasa.jpg" class="img-fluid">
-          <img src="./images/riot.png" class="img-fluid">
+          <img src="images/parceiros.png" class="img-fluid">
+          <img src="images/natgeo.svg" class="img-fluid">
+          <img src="images/natgeo.svg" class="img-fluid">
         </div>
       </div>
     </div>
@@ -427,30 +433,22 @@
   <!--Rodapé-->
   <footer class="rodape">
     <!--div dos icones -->
-
-   
-
-    
-
-    <div class="row d-flex justify-content-center p-2 w-100">
-      <!--icone facebook -->
-      
-      <a class="facebookicon mr-2 center" href="#">
-        <img src="images/logotipo-circular-do-facebook.png" width="45px" height="45px">
-      </a>
-      <!--icone instagram -->
-      <a class="instagramicon mr-2" href="#">
-        <img src="images/instagram.png" width="45px" height="45px">
-      </a>
-      <!--icone zipzop-->
-      <a class="zapicon" href="#">
-        <img src="images/whatsapp.png" width="45px" height="45px">
-      </a>
-    </div>
-    
-    <div class="w-100">
-      <p class="">Copyright &copy; your website 2021</p>
-
+    <div class="container">
+      <div class="row d-flex justify-content-center p-3">
+        <!--icone facebook -->
+        <a class="facebookicon pr-3 pt-3 pb-3" href="#">
+          <img src="images/logotipo-circular-do-facebook.png" width="45px" height="45px">
+        </a>
+        <!--icone instagram -->
+        <a class="instagramicon pr-3 pt-3 pb-3" href="#">
+          <img src="images/instagram.png" width="45px" height="45px">
+        </a>
+        <!--icone zipzop-->
+        <a class="zapicon pr-3 pt-3 pb-3" href="#">
+          <img src="images/whatsapp.png" width="45px" height="45px">
+        </a>
+  
+      </div>
     </div>
   </footer>
 
