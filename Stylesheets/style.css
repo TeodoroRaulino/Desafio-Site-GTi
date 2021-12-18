@@ -304,3 +304,11 @@ body{
     }
 }
 /* Fim sessão timeline */
+/* ccs de vitor*/
+.contato {
+    background-color: gray;
+    height: 60vh;
+}
+.resize-textarea{
+    resize: none;
+}
